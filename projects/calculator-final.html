@@ -1,0 +1,40 @@
+ <head>
+    <link rel="stylesheet" href="styles/calculator-final.css">
+   </head>
+    <h4><center>Calculator</center></h4>
+    <p class="js-board"></p>
+    <button onclick="calculation(1);">1</button>
+    <button onclick="calculation(2);">2</button>
+    <button onclick="calculation(3);">3</button>
+    <button class="operations" onclick="calculation('+');">+</button>
+    
+    <br>
+    <br>
+    <button onclick="calculation(4);">4</button>
+    <button onclick="calculation(5);">5</button>
+    <button onclick="calculation(6);">6</button>
+    <button class="operations" onclick="calculation('-');">-</button>
+    <br>
+    <br>
+    <button onclick="calculation(7);">7</button>
+    <button onclick="calculation(8);">8</button>
+    <button onclick="calculation(9);">9</button>
+    <button class="operations" onclick="calculation('*');">*</button>
+    <br>
+    <br>
+    <button onclick="calculation(0);">0</button>
+    <button onclick="calculation('.')">.</button>
+    <button onclick=" if(calculation1.includes('.')){board.innerText=eval(calculation1).toFixed(2);} else{board.innerText=eval(calculation1);} calculation1=board.innerText;">=</button>
+    <button class="operations" onclick="calculation('/');">/</button>
+ 
+    
+    <br>
+    <br>
+    <button onclick="board.innerText=''; calculation1='';">AC</button>
+    <button onclick="backspace();" >⌫</button>
+    <button class="operations" onclick="calculation('%');">%</button>
+
+    <script src="scripts/calculator-final.js">
+        
+    </script> 
+    
