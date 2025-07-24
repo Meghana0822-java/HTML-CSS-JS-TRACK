@@ -1,0 +1,21 @@
+body{
+    background-color:black;
+}
+p{
+    color:white;
+    font-size: 26px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(29, 25, 25);
+}
+.operations{
+    background-color:orange;
+}
