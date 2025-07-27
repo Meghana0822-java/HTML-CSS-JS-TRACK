@@ -1,0 +1,35 @@
+body{
+    font-family:Arial;
+}
+.input,.row{
+    display: grid;
+    grid-template-columns: 150px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+.row{
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+}
+.user-input,.date-input{
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+.add-btn{
+    background-color: green;
+    border:none;
+    color:white;
+}
+.del-btn{
+    background-color: darkred;
+    color:white;
+    border:none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
